@@ -13,9 +13,9 @@ public class Main
 	        arr[i]=in.nextInt();
 	    }
 	    
-		System.out.println(MissingNumber(arr));
+		System.out.println(AllMissingNumbers(arr));
 	}
-	static ArrayList<Integer> MissingNumber(int[] arr){
+	static ArrayList<Integer> AllMissingNumbers(int[] arr){
 	    int i=0;
 	    while(i<arr.length){
 	        int correct=arr[i]-1;
