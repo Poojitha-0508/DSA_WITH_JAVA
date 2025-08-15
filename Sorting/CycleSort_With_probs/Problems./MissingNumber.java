@@ -13,9 +13,9 @@ public class Main
 	        arr[i]=in.nextInt();
 	    }
 	    
-		System.out.println(MisiingNumber(arr));
+		System.out.println(MissingNumber(arr));
 	}
-	static int MisiingNumber(int[] arr){
+	static int MissingNumber(int[] arr){
 	    int i=0;
 	    while(i<arr.length){
 	        int correct=arr[i];
