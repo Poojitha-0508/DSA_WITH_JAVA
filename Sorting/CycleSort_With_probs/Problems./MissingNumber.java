@@ -33,6 +33,6 @@ public class Main
 	            return i;
 	        }
 	    }
-	    return -1;
+	    return arr.length;
 	}
 }
